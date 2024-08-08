@@ -2,6 +2,7 @@ import React, { useLayoutEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
+import IntroSection from './components/IntroSection.js';
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -29,10 +30,7 @@ export default function Scroll() {
 
   return (
     <div>
-      <section className="section flex-center column">
-        <h1>Axel Straube</h1>
-        <h2>Front-End Developer</h2>
-      </section>
+      <IntroSection />
       <div className="section flex-center column" ref={main}>
         <div className="box gradient-blue">hi</div>
         <div className="box gradient-blue">hello</div>
