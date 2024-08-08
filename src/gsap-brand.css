@@ -433,36 +433,6 @@ body {
   line-height: 1.45;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  margin: 10px 0 10px 0;
-  font-weight: 400;
-  line-height: 1.2;
-}
-
-h1,
-.h1 {
-  font-size: var(--step-4);
-}
-
-h2,
-.h2 {
-  font-size: var(--step-3);
-}
-
-h3,
-.h3 {
-  font-size: var(--step-2);
-}
-
-h4,
-.h4,
-.lead {
-  font-size: var(--step-1);
-}
-
 a {
   color: var(--green);
   font-weight: bold;
