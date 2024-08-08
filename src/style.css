@@ -1,3 +1,7 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
 .panel {
   height: 100vh;
   position: sticky;
