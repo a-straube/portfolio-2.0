@@ -5,6 +5,7 @@ import { useGSAP } from '@gsap/react';
 import IntroSection from './components/IntroSection.js';
 import Lotus from './components/Lotus.js';
 import AboutMeSection from './components/AboutMeSection.js';
+import ProjectsSection from './components/projects-section/ProjectsSection.js';
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -40,7 +41,7 @@ export default function Scroll() {
         <div className="box gradient-blue">hello</div>
         <div className="box gradient-blue">hola</div>
       </div>
-      <section className="section"></section>
+      <ProjectsSection />
     </div>
   );
 }
